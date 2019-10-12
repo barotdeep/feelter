@@ -1,5 +1,5 @@
 [{
-		//post by sean about fighting in syria
+
 		"id": 1,
 		"category":"World",
 		"image": "1.png",
@@ -18,7 +18,7 @@
 	},
 
 	{
-		//post by amanda about climate
+	
 		"id": 2,
 		"category": "Environment",
 		"image": "2.png",
@@ -37,7 +37,7 @@
 	},
 
 	{
-		//post by john about his yard
+		
 		"id": 3,
 		"category": "Random",
 		"image": "3.png",
@@ -56,7 +56,7 @@
 	},
 
 	{
-		//ppost by carita about cali fires
+		
 		"id": 4,
 		"category": "Environment",
 		"image": "4.png",
@@ -75,7 +75,7 @@
 	},
 
 	{
-		//post by beth about her kid
+		
 		"id": 5,
 		"category": "Random",
 		"image": "5.png",
@@ -94,7 +94,7 @@
 	},
 
 	{
-		//post by dan about homework
+		
 		"id": 6,
 		"category": "Random",
 		"image": "place.png",
@@ -113,7 +113,7 @@
 	},
 
 	{
-		//post by taylor about penguins
+		
 		"id": 7,
 		"category": "Animals",
 		"image": "7.png",
@@ -132,7 +132,7 @@
 	},
 
 	{
-		//post by kevin about a car dealership ad
+		
 		"id": 8,
 		"category": "Cars",
 		"image": "8.png",
@@ -151,7 +151,7 @@
 	},
 
 	{
-		//post by rita about the c8
+		
 		"id": 9,
 		"category": "Cars",
 		"image": "9.png",
@@ -170,7 +170,7 @@
 	},
 
 	{
-		//post by Kyle about japan typhoon 
+		
 		"id": 10,
 		"category": "World",
 		"image": "10.png",
@@ -189,7 +189,7 @@
 	},
 
 	{
-		//post by sean about hydrogen economy
+		
 		"id": 11,
 		"category":"Environment",
 		"image": "11.png",
