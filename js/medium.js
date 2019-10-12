@@ -37,6 +37,21 @@ $(document).ready(function() {
 	  loadDefaultData(data);
     });
 
+    function removeObjects() {
+		$("#deck_wrapper").remove();
+	}
+
+	function addDeckWrapper() {
+		$("#row_body").append('<div id="deck_wrapper" class="card-deck-wrapper"></div>');
+	}
+
+	function filterData() {
+		removeObjects();
+		addDeckWrapper();
+		//TODO load the data
+		loadDefaultData(data);
+	}
+
 
 	function loadDefaultData(data) {
 		var items_len = data.length;
@@ -71,10 +86,6 @@ $(document).ready(function() {
 			}
 		});
 	}
-
-	
-
-	
 
 });
 
