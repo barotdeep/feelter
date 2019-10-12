@@ -363,14 +363,33 @@
 	{
 		
 		"id": 20,
-		"category": "World",
-		"image": "10.png",
-		"title": "Typhoon in Japan",
+		"category": "Random",
+		"image": "none",
+		"title": "yoooooo",
 		"type": "text",
-		"content": "https://www.nbcnews.com/news/world/japan-advises-hundreds-thousands-evacuate-powerful-typhoon-approaches-n1065346",
-		"description": "People in Japan are preparing for the worst, I hope nothing bad will come there way <3 please share this post to spread awareness",
+		"content": "Has anyone ever realized that racecar backwards is racecar, taco cat backwards is taco cat, and youre frown backwards is a smiel :)",
+		"description": "Has anyone ever realized that racecar backwards is racecar, taco cat backwards is taco cat, and youre frown backwards is a smiel :)",
 		"user_name": "Kyle",
 		"user_image":"kyle.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 21,
+		"category":"Environment",
+		"image": "21.png",
+		"title": "Dogs are the fountain of youth",
+		"type": "url",
+		"content": "https://www.usatoday.com/story/news/health/2019/10/08/aha-journal-study-owning-dog-may-help-you-live-longer/3907770002/",
+		"description": "In other news, people with dogs live longer than people who dont. So naturally the conclusion is that everyone should get a dog",
+		"user_name":"Sean",
+		"user_image": "sean.png",
 
 		"results": {
 			"score": 1,
