@@ -205,7 +205,178 @@
 			"magnitude": 1,
 			"labels": []
 		}
+	},
+
+	{
+	
+		"id": 12,
+		"category": "Environment",
+		"image": "2.png",
+		"title": "The PM of Ethiopia just won the Nobel Peace Prize!",
+		"type": "url",
+		"content": "https://www.nbcnews.com/news/world/ethiopian-prime-minister-abiy-ahmed-awarded-nobel-peace-prize-n1064901",
+		"description": "This is really great to see, hard work by honest people pays off! Here's a great snippet from him \" Peace does not arise from the actions of one party alone \" :)! ",
+		"user_name":"Amanda",
+		"user_image":"amanda.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+
+	{
+		
+		"id": 13,
+		"category": "Sports",
+		"image": "13.png",
+		"title": "Why does god hate my football team?",
+		"type": "url",
+		"content": "https://www.cbc.ca/sports/football/cfl/cfl-toronto-ottawa-recap-oct-11-1.5318888",
+		"description": "There are no words in any earthly dictionary to express the level of sheer frustration and stress watching this godforsaken football team stumble around for an hour and a half on plastic grass ",
+		"user_name": "John",
+		"user_image":"john.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 14,
+		"category": "Pop Culture",
+		"image": "14.png",
+		"title": "This the dude that broke Kylie's heart?",
+		"type": "text",
+		"content": "smh ASAP Rocky wildin",
+		"description": "smh ASAP Rocky wildin",
+		"user_name": "Carlita",
+		"user_image": "carlita.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 15,
+		"category": "Pop Culture",
+		"image": "15.png",
+		"title": "Justin Bieber remixes 50 Cent",
+		"type": "url",
+		"content": "https://www.foxnews.com/entertainment/justin-bieber-50-cent-raps-hailey-baldwin-depression-many-men-remix",
+		"description": "Whats next, Betty White gonna work with Snoop Dogg?",
+		"user_name": "Beth",
+		"user_image":"beth.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 16,
+		"category": "Pop Culture",
+		"image": "16.png",
+		"title": "Why does lil baby look like a pt cruiser",
+		"type": "text",
+		"content": "guys im serious this doesnt even make any sense like how can someones head be built in that particular way like what cruel monster looked at him and said \"yep looks good\" like wtf",
+		"description": "guys im serious this doesnt even make any sense like how can someones head be built in that particular way like what cruel monster looked at him and said \"yep looks good\" like wtf",
+		"user_name": "Dan",
+		"user_image":"dan.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 17,
+		"category": "Technology",
+		"image": "17.png",
+		"title": "QC Ware in Quantum Cloud Computing",
+		"type": "url",
+		"content": "https://www.forbes.com/sites/alexknapp/2019/09/27/qc-ware-joins-the-growing-ranks-of-companies-offering-quantum-computing-cloud-services/#6e6ee38c7e57",
+		"description": "Dude I don't even know how to change the brightness on my toaster wtf is a quantum-cloud-downtown-clown computer?",
+		"user_name": "Taylor",
+		"user_image":"taylor.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 18,
+		"category": "World",
+		"image": "18.png",
+		"title": "True North Strong in Fear",
+		"type": "url",
+		"content": "https://www.cbc.ca/news/politics/elizabeth-may-green-party-racism-1.5318023",
+		"description": "Green Party Leader Elizabeth May said today that Canada is \"awash\" in racism and the country has to do a better job of confronting it. For a country which prides itself on our inclusivness, we sure are indecisive when it comes to solving these issues...",
+		"user_name": "Kevin",
+		"user_image":"kevin.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 19,
+		"category": "Technology",
+		"image": "19.png",
+		"title": "Facebook uses deepfakes to combat deepfakes",
+		"type": "url",
+		"content": "https://www.cnn.com/2019/09/05/tech/facebook-deepfake-detection-challenge/index.html",
+		"description": "There are widespread concerns about whether social media companies are ready to fight a new wave of videos doctored with artificial intelligence, often called deepfakes. Facebook's current solution: make even more deepfakes itself. Fight fire with fire I guess!",
+		"user_name": "Rita",
+		"user_image":"rita.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 20,
+		"category": "World",
+		"image": "10.png",
+		"title": "Typhoon in Japan",
+		"type": "text",
+		"content": "https://www.nbcnews.com/news/world/japan-advises-hundreds-thousands-evacuate-powerful-typhoon-approaches-n1065346",
+		"description": "People in Japan are preparing for the worst, I hope nothing bad will come there way <3 please share this post to spread awareness",
+		"user_name": "Kyle",
+		"user_image":"kyle.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
 	}
 
-	
 ]
