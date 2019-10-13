@@ -152,12 +152,19 @@ $(document).ready(function() {
 			if (value.type == "url") {
 				href_val = value.content;
 			}
-			$("#" + deck_id).append('<div class="card" id='+ blog_id +'><a target="_blank" href='+ href_val +'><img class="card-img-top img-fluid" id='+ blog_img_id +' src='+ blog_img_src +' alt="..."></a><div class="card-block"><h4 class="card-title" id='+ blog_title_id +'><a target="_blank" href='+ href_val +'>'+ blog_title +'</a></h4><h6 class="card-text"><a href="#">'+ blog_category +'</a>,&nbsp; <small>5 minutes ago</small></h6><p class="card-text">'+ blog_description+'</p></div><div class="card-footer"><hr/><ul class="author-2"><li><a href="#"><img class="" id='+ user_img_id +' src='+ user_img_src +' alt="..."/> &nbsp; <span>'+ user_name +'</span></a></li></ul><ul class="bottom_data pull-right hidden-xs-down"><li><i class="fa fa-comment-o"></i>200</li><li><i class="fa fa-heart-o"></i>30</li><li><i class="fa fa-align-left"></i>7 Min Read</li></ul></div></div>');
+			var description_id = "description_" + i;
+			$("#" + deck_id).append('<div class="card" id='+ blog_id +'><a target="_blank" href='+ href_val +'><img class="card-img-top img-fluid" id='+ blog_img_id +' src='+ blog_img_src +' alt="..."></a><div class="card-block"><h4 class="card-title" id='+ blog_title_id +'><a target="_blank" href='+ href_val +'>'+ blog_title +'</a></h4><h6 class="card-text"><a href="#">'+ blog_category +'</a>,&nbsp; <small>5 minutes ago</small></h6><p class="med-text" id='+ description_id +'>'+ blog_description+'</p></div><div class="card-footer"><hr/><ul class="author-2"><li><a href="#"><img class="" id='+ user_img_id +' src='+ user_img_src +' alt="..."/> &nbsp; <span>'+ user_name +'</span></a></li></ul><ul class="bottom_data pull-right hidden-xs-down"><li><i class="fa fa-comment-o"></i>200</li><li><i class="fa fa-heart-o"></i>30</li><li><i class="fa fa-align-left"></i>7 Min Read</li></ul></div></div>');
 			counter++;
 			if (counter % 3 == 0) {
 				deck_counter++;
 				deck_id = "deck_" + deck_counter;
 				$("#deck_wrapper").append('<div class="card-deck" id='+ deck_id +'></div>');
+			}
+
+			// $(".med-text").css("color", "red");
+
+			if (value.results.labels[0] == "sad") {
+				$('#' + description_id).css("color", "red");
 			}
 		});
 	}
