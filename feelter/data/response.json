@@ -1,0 +1,62 @@
+[
+	{
+		"id":1,
+		"sentiment": 0.8,
+		"magnitude": 3.0
+	},
+	{
+		"id":2,
+		"sentiment": 0.6,
+		"magnitude": 4.0
+	},
+	{
+		"id":3,
+		"sentiment": 0.6,
+		"magnitude": 4.0
+	},
+	{
+		"id":4,
+		"sentiment": 0.0,
+		"magnitude": 4.0
+	},
+	{
+		"id":5,
+		"sentiment": 0.8,
+		"magnitude": 3.0
+	},
+	{
+		"id":6,
+		"sentiment": 0.6,
+		"magnitude": 4.0
+	},
+	{
+		"id":7,
+		"sentiment": 0.6,
+		"magnitude": 4.0
+	},
+	{
+		"id":8,
+		"sentiment": 0.0,
+		"magnitude": 4.0
+	},
+	{
+		"id":9,
+		"sentiment": 0.8,
+		"magnitude": 3.0
+	},
+	{
+		"id":10,
+		"sentiment": 0.6,
+		"magnitude": 4.0
+	},
+	{
+		"id":11,
+		"sentiment": 0.6,
+		"magnitude": 4.0
+	},
+	{
+		"id":12,
+		"sentiment": 0.0,
+		"magnitude": 4.0
+	}
+]

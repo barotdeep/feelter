@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
 	var all_data;
-	var url = "http://localhost:8000/feelter/data/data.json";
-	var response_url = "http://localhost:8000/feelter/data/response.json";
+	var url = "http://localhost:8000/data/data.json";
+	var response_url = "http://localhost:8000/data/response.json";
     
 	$('ul.nav li.dropdown').hover(function() {
 	  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
@@ -122,9 +122,9 @@ $(document).ready(function() {
 		$.each(data, function(key, value) {
 			var i = value.id;
 			var blog_id = "blog_" + i;
-			var blog_img_src = "feelter/img/blog/"+ i + ".png";
+			var blog_img_src = "img/blog/"+ i + ".png";
 			if (value.image == "none") {
-				blog_img_src = "feelter/img/blog/place.png";
+				blog_img_src = "img/blog/place.png";
 			}
 			
 			var blog_img_id = "blog_img_" + i;
@@ -133,7 +133,7 @@ $(document).ready(function() {
 			var blog_description = value.description;
 			var blog_category = value.category;
 			var user_name = value.user_name;
-			var user_img_src = "feelter/img/users/"+ user_name.toLowerCase() + ".png";
+			var user_img_src = "img/users/"+ user_name.toLowerCase() + ".png";
 			var user_img_id = "user_img_" + i;
 			var href_val = "#";
 			if (value.type == "url") {
