@@ -52,6 +52,22 @@ $(document).ready(function() {
 		loadDefaultData(data);
 	}
 
+	function getFilteredData(type) {
+		alert("Selected mood is " + type);
+	}
+
+	$("#icon_happy").click(function() {
+		getFilteredData("happy")
+	});
+
+	$("#icon_meh").click(function() {
+		getFilteredData("meh")
+	});
+	
+	$("#icon_sad").click(function() {
+		getFilteredData("sad")
+	});
+
 
 	function loadDefaultData(data) {
 		var items_len = data.length;
