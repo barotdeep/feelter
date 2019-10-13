@@ -20,6 +20,10 @@
   color: white;
 }
 
+.card { 
+  cursor: pointer; 
+}
+
 /* line 4, ../bower_components/font-awesome/scss/_core.scss */
 .fa {
   display: inline-block;
