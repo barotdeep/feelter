@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	var all_data;
 	var url = "http://localhost:8000/static/data/data.json";
-	var response_url = "http://localhost:8000/getMag";
+	var response_url = "http://localhost:8000/static/data/response.json";
     
 	$('ul.nav li.dropdown').hover(function() {
 	  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
@@ -101,12 +101,7 @@ $(document).ready(function() {
 	});
 
 	function getResponses() {
-		$.get({
-			url: response_url,
-			dataType: 'json',
-            contentType: 'application/json; charset=utf-8',
-            data: JSON.stringify({Data: all_data})
-		})
+		$.get(response_url)
 		  .done(function(response) {
 		    $.each(response, function(key, value) {
 		    	console.log(value);
