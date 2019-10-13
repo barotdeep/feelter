@@ -39,7 +39,7 @@ $(document).ready(function() {
       console.log(data);
 	  all_data = data;
 	  getResponses();
-	  loadDefaultData(all_data);
+	  loadDefaultData(all_data, "meh");
     });
 
     function removeObjects() {
@@ -76,22 +76,29 @@ $(document).ready(function() {
 			});
 		}
 
-		loadDefaultData(updateData);
+		loadDefaultData(updateData, type);
 	}
 
 	$("#icon_happy").click(function() {
 		cleanData();
-		loadDefaultData(all_data);
+		loadDefaultData(all_data, "happy");
 	});
 
 	$("#icon_meh").click(function() {
 		cleanData();
-		getFilteredData("meh")
+		loadDefaultData(all_data, "meh");
+		
 	});
 
 	$("#icon_sad").click(function() {
 		cleanData();
-		getFilteredData("sad")
+		var updateData = [];
+		$.each(all_data, function(key, value) {
+				if (value.results.labels[0] == "happy" || value.results.labels[0] == "meh") {
+					updateData.push(value);
+				}
+			});
+		loadDefaultData(updateData, "sad");
 	});
 
 	function getResponses() {
@@ -105,7 +112,7 @@ $(document).ready(function() {
 	}
 
 
-	function loadDefaultData(data) {
+	function loadDefaultData(data, mood_type) {
 		var items_len = data.length;
 
 		var counter = 0;
@@ -144,7 +151,7 @@ $(document).ready(function() {
 
 			// $(".med-text").css("color", "red");
 
-			if (value.results.labels[0] == "sad") {
+			if (mood_type == "happy" && value.results.labels[0] == "sad") {
 				$('#' + description_id).css("color", "red");
 			}
 		});
