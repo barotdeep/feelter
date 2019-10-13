@@ -15,6 +15,11 @@
   font-style: normal;
 }
 
+.my-icon {
+  font-size: 25px;
+  color: white;
+}
+
 /* line 4, ../bower_components/font-awesome/scss/_core.scss */
 .fa {
   display: inline-block;
