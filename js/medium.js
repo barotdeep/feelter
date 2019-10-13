@@ -1,4 +1,8 @@
 $(document).ready(function() {
+
+	var all_data;
+	var url = "http://localhost:8000/data/data.json";
+	var response_url = "http://localhost:8000/data/response.json";
     
 	$('ul.nav li.dropdown').hover(function() {
 	  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
@@ -25,8 +29,6 @@ $(document).ready(function() {
 		return false;
 	});
 
-	var all_data;
-	var url = "http://localhost:8000/data/data.json";
 
 	$.getJSON( url, {
 	    tags: "mount rainier",
@@ -99,7 +101,7 @@ $(document).ready(function() {
 	});
 
 	function getResponses() {
-		$.get( "http://localhost:8000/data/response.json")
+		$.get(response_url)
 		  .done(function(response) {
 		    $.each(response, function(key, value) {
 		    	console.log(value);
