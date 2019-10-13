@@ -13,7 +13,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["sad"]
 		}
 	},
 
@@ -32,7 +32,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["sad"]
 		}
 	},
 
@@ -51,7 +51,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -70,7 +70,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["sad"]
 		}
 	},
 
@@ -89,7 +89,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["happy"]
 		}
 	},
 
@@ -108,7 +108,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -127,7 +127,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["happy"]
 		}
 	},
 
@@ -146,7 +146,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -165,7 +165,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["happy"]
 		}
 	},
 
@@ -184,7 +184,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["sad"]
 		}
 	},
 
@@ -196,14 +196,14 @@
 		"title": "A little light in the dark",
 		"type": "url",
 		"content": "https://www.forbes.com/sites/kensilverstein/2019/10/08/the-hydrogen-economy-is-within-grasp-and-progressive-energy-companies-know-it/#67f4e8184eb6",
-		"description": "In contrast with most of the depressing stuff around the climate crisis right now, heres some hope for the future! ",
+		"description": "In contrast with most of the depressing stuff around the climate crisis right now, heres some hope for the future! Companies are using clean energy sources to produce hydrogen which combats climate change!",
 		"user_name":"Sean",
 		"user_image": "sean.png",
 
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["happy"]
 		}
 	},
 
@@ -222,7 +222,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["happy"]
 		}
 	},
 
@@ -242,7 +242,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["sad"]
 		}
 	},
 
@@ -261,7 +261,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -280,7 +280,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -299,7 +299,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -311,14 +311,14 @@
 		"title": "QC Ware in Quantum Cloud Computing",
 		"type": "url",
 		"content": "https://www.forbes.com/sites/alexknapp/2019/09/27/qc-ware-joins-the-growing-ranks-of-companies-offering-quantum-computing-cloud-services/#6e6ee38c7e57",
-		"description": "Dude I don't even know how to change the brightness on my toaster wtf is a quantum-cloud-downtown-clown computer?",
+		"description": "Dude I don't even know how to change the brightness on my toaster wtf is a quantum-cloud-downtown-clown computer? But honestly if anyone could give me a breakdown that'd be sick. This stuff scares me lol",
 		"user_name": "Taylor",
 		"user_image":"taylor.png",
 
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -337,7 +337,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -356,7 +356,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -375,7 +375,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -387,14 +387,14 @@
 		"title": "Dogs are the fountain of youth",
 		"type": "url",
 		"content": "https://www.usatoday.com/story/news/health/2019/10/08/aha-journal-study-owning-dog-may-help-you-live-longer/3907770002/",
-		"description": "In other news, people with dogs live longer than people who dont. So naturally the conclusion is that everyone should get a dog",
+		"description": "In other news, people with dogs live longer than people who dont. So naturally the conclusion is that everyone should get a dog ;P What are some of your guys favourite dogs? I'm partial to small dogs myself, they are so lively!",
 		"user_name":"Sean",
 		"user_image": "sean.png",
 
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["happy"]
 		}
 	},
 
@@ -413,7 +413,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["happy"]
 		}
 	},
 
@@ -425,14 +425,14 @@
 		"title": "Network of Ancient Mayan Farms Uncovered",
 		"type": "url",
 		"content": "https://www.nbcnews.com/mach/science/laser-scanning-tech-uncovers-huge-network-ancient-maya-farms-ncna1065286",
-		"description": "Apparently they just found out these old Mayan farms from like a bajillion years ago, check this out",
+		"description": "Apparently they just found out these old Mayan farms from like a bajillion years ago, check this out. I wonder what they used to grow, and what subsidies the government gave them xD!!",
 		"user_name": "John",
 		"user_image":"john.png",
 
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -444,14 +444,14 @@
 		"title": "Damn man they scamming 2 year olds now lmaoo",
 		"type": "url",
 		"content": "https://www.cbc.ca/radio/asithappens/ontario-woman-spends-hundreds-for-son-to-meet-youtube-star-blippi-who-won-t-be-there-1.5318139",
-		"description": "This lady payed hundreds of bucks to let her kid meet this guy named Blippi and it turns out he never even showed xD",
+		"description": "This lady payed hundreds of bucks to let her kid meet this guy named Blippi and it turns out he never even showed xD Real talk tho don't let your kids get addicted to stuff like this or it ends bad for your bank, as you can see...",
 		"user_name": "Carlita",
 		"user_image": "carlita.png",
 
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["sad"]
 		}
 	},
 
@@ -463,14 +463,14 @@
 		"title": "Joaquin Phoenix Owns Up to a Fender Bender",
 		"type": "url",
 		"content": "https://www.foxnews.com/entertainment/joker-star-joaquin-phoenix-does-the-unthinkable-after-accident-with-paramedics-truck-report",
-		"description": "Joaquin Pheonix hit a car in a parking lot, and then he went out of his way to find the other person and help them, what a good guy!",
+		"description": "Joaquin Pheonix hit a car in a parking lot, and instead of just moving along, he went out of his way to find the other person and help them, what a good guy!",
 		"user_name": "Beth",
 		"user_image":"beth.png",
 
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["happy"]
 		}
 	},
 
@@ -489,7 +489,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["sad"]
 		}
 	},
 
@@ -508,7 +508,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["sad"]
 		}
 	},
 
@@ -527,7 +527,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["meh"]
 		}
 	},
 
@@ -546,7 +546,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["happy"]
 		}
 	},
 
@@ -565,7 +565,7 @@
 		"results": {
 			"score": 1,
 			"magnitude": 1,
-			"labels": []
+			"labels": ["sad"]
 		}	
 	}
 

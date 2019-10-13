@@ -60,28 +60,41 @@ $(document).ready(function() {
 		var max_mag;
 		var min_score;
 		var max_score;
-
-		if (type == "meh") {
-			min_score = 0;
-			max_score = 1;
-			min_mag = 0.0;
-			max_mag = 10;
-
-		} else if (type == "sad") {
-			min_score = 0.4;
-			max_score = 1;
-			min_mag = 1.0;
-			max_mag = 10;
-
-		}
-
 		var updateData = [];
 
-		$.each(all_data, function(key, value) {
-			if (value.results.score >= min_score && value.results.score <= max_score && value.results.magnitude >= min_mag && value.results.magnitude <= max_mag) {
-				updateData.push(value);
-			}
-		});
+		if (type == "meh") {
+			$.each(all_data, function(key, value) {
+				if (value.results.labels[0] == "happy" || value.results.labels[0] == "meh") {
+					updateData.push(value);
+				}
+			});
+		} else if (type == "sad") {
+			$.each(all_data, function(key, value) {
+				if (value.results.labels[0] == "happy") {
+					updateData.push(value);
+				}
+			});
+		}
+
+		// if (type == "meh") {
+		// 	min_score = 0;
+		// 	max_score = 1;
+		// 	min_mag = 0.0;
+		// 	max_mag = 10;
+
+		// } else if (type == "sad") {
+		// 	min_score = 0.4;
+		// 	max_score = 1;
+		// 	min_mag = 1.0;
+		// 	max_mag = 10;
+
+		// }
+
+		// $.each(all_data, function(key, value) {
+		// 	if (value.results.score >= min_score && value.results.score <= max_score && value.results.magnitude >= min_mag && value.results.magnitude <= max_mag) {
+		// 		updateData.push(value);
+		// 	}
+		// });
 		loadDefaultData(updateData);
 	}
 
