@@ -529,6 +529,44 @@
 			"magnitude": 1,
 			"labels": []
 		}
+	},
+
+	{
+		
+		"id": 29,
+		"category": "Technology",
+		"image": "29.png",
+		"title": "When Steph Curry Has Your Back: The SnapTravel Story",
+		"type": "url",
+		"content": "https://www.forbes.com/sites/cognitiveworld/2019/10/03/when-steph-curry-has-your-back-the-snaptravel-story/?ss=ai#5c6859c69973",
+		"description": "Steph Curry is doing some cool things right now investing in tech startups! More than just a baller, hes a BALLER!!",
+		"user_name": "Rita",
+		"user_image":"rita.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 30,
+		"category": "Random",
+		"image": "30.png",
+		"title": "Brooklyn shooting leaves four dead",
+		"type": "url",
+		"content": "https://www.cnn.com/2019/10/12/us/four-dead-in-brooklyn-shooting/index.html",
+		"description": "You cant help but break l ittle inside reading stuff like this :c",
+		"user_name": "Kyle",
+		"user_image":"kyle.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
 	}
 
 ]
