@@ -25,6 +25,7 @@ $(document).ready(function() {
 		return false;
 	});
 
+	var all_data;
 	var url = "http://localhost:8000/data/data.json";
 
 	$.getJSON( url, {
@@ -35,6 +36,7 @@ $(document).ready(function() {
 	.done(function( data ) {
       console.log(data);
 	  loadDefaultData(data);
+	  all_data = data;
 	  getResponses();
     });
 
@@ -46,30 +48,55 @@ $(document).ready(function() {
 		$("#row_body").append('<div id="deck_wrapper" class="card-deck-wrapper"></div>');
 	}
 
-	function filterData() {
+	function cleanData() {
 		removeObjects();
 		addDeckWrapper();
-		//TODO load the data
-		loadDefaultData(data);
 	}
 
 	function getFilteredData(type) {
-		alert("Selected mood is " + type);
+		var min_mag;
+		var max_mag;
+		var min_score;
+		var max_score;
+
+		if (type == "meh") {
+			min_score = 0;
+			max_score = 1;
+			min_mag = 0.0;
+			max_mag = 10;
+
+		} else if (type == "sad") {
+			min_score = 0.4;
+			max_score = 1;
+			min_mag = 1.0;
+			max_mag = 10;
+
+		}
+
+		var updateData = [];
+
+		$.each(all_data, function(key, value) {
+			if (value.results.score >= min_score && value.results.score <= max_score && value.results.magnitude >= min_mag && value.results.magnitude <= max_mag) {
+				updateData.push(value);
+			}
+		});
+		loadDefaultData(updateData);
 	}
 
 	$("#icon_happy").click(function() {
-		getFilteredData("happy")
+		cleanData();
+		loadDefaultData(all_data);
 	});
 
 	$("#icon_meh").click(function() {
+		cleanData();
 		getFilteredData("meh")
 	});
 
 	$("#icon_sad").click(function() {
+		cleanData();
 		getFilteredData("sad")
 	});
-
-	var all_data;
 
 	function getResponses() {
 		$.get( "http://localhost:8000/data/response.json")
@@ -89,7 +116,7 @@ $(document).ready(function() {
 		var deck_counter = 1;
 		var deck_id = "deck_" + deck_counter;
 		$("#deck_wrapper").append('<div class="card-deck" id='+ deck_id +'></div>');
-		all_data = data;
+	
 		$.each(data, function(key, value) {
 			var i = value.id;
 			var blog_id = "blog_" + i;
