@@ -37,9 +37,9 @@ $(document).ready(function() {
 	})
 	.done(function( data ) {
       console.log(data);
-	  loadDefaultData(data);
 	  all_data = data;
 	  getResponses();
+	  loadDefaultData(all_data);
     });
 
     function removeObjects() {
@@ -76,25 +76,6 @@ $(document).ready(function() {
 			});
 		}
 
-		// if (type == "meh") {
-		// 	min_score = 0;
-		// 	max_score = 1;
-		// 	min_mag = 0.0;
-		// 	max_mag = 10;
-
-		// } else if (type == "sad") {
-		// 	min_score = 0.4;
-		// 	max_score = 1;
-		// 	min_mag = 1.0;
-		// 	max_mag = 10;
-
-		// }
-
-		// $.each(all_data, function(key, value) {
-		// 	if (value.results.score >= min_score && value.results.score <= max_score && value.results.magnitude >= min_mag && value.results.magnitude <= max_mag) {
-		// 		updateData.push(value);
-		// 	}
-		// });
 		loadDefaultData(updateData);
 	}
 
@@ -174,6 +155,15 @@ $(document).ready(function() {
 			if (value.id == id) {
 				value.results.score = sentiment;
 				value.results.magnitude = magnitude;
+
+				if (sentiment < 0) {
+					value.results.labels[0] = "sad";
+				} else if (sentiment >= 0 && magnitude < 7) {
+					value.results.labels[0] = "meh";
+				} else {
+					value.results.labels[0] = "happy";
+				}
+
 				return false;
 			}
 		});
