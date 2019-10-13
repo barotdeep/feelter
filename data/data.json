@@ -82,7 +82,7 @@
 		"title": "birthday boy!!!",
 		"type": "text",
 		"content": "Hey all! My baby boy Jeffrey just turned one! Isn't it crazy how fast the time goes? I almost dont believe its been a whole year since he shined his light onto our lives, love you baby <3",
-		"description": "Today is Jeffrey's first birthday.",
+		"description": "Hey all! My baby boy Jeffrey just turned one! Isn't it crazy how fast the time goes? I almost dont believe its been a whole year since he shined his light onto our lives, love you baby <3",
 		"user_name": "Beth",
 		"user_image":"beth.png",
 
@@ -330,7 +330,7 @@
 		"title": "True North Strong in Fear",
 		"type": "url",
 		"content": "https://www.cbc.ca/news/politics/elizabeth-may-green-party-racism-1.5318023",
-		"description": "Green Party Leader Elizabeth May said today that Canada is \"awash\" in racism and the country has to do a better job of confronting it. For a country which prides itself on our inclusivness, we sure are indecisive when it comes to solving these issues...",
+		"description": "Green Party Leader Elizabeth May said today that Canada is \"awash\" in racism and the country has to do a better job of confronting it. For a country which prides itself on inclusivness, we sure are indecisive when it comes to solving these issues...",
 		"user_name": "Kevin",
 		"user_image":"kevin.png",
 
@@ -349,7 +349,7 @@
 		"title": "Facebook uses deepfakes to combat deepfakes",
 		"type": "url",
 		"content": "https://www.cnn.com/2019/09/05/tech/facebook-deepfake-detection-challenge/index.html",
-		"description": "There are widespread concerns about whether social media companies are ready to fight a new wave of videos doctored with artificial intelligence, often called deepfakes. Facebook's current solution: make even more deepfakes itself. Fight fire with fire I guess!",
+		"description": "There are widespread concerns about whether social media companies are ready to fight a new wave of videos doctored with artificial intelligence, often called deepfakes. Facebook's current solution: make even more deepfakes itself. Fight fire with fire!",
 		"user_name": "Rita",
 		"user_image":"rita.png",
 
@@ -382,7 +382,7 @@
 	{
 		
 		"id": 21,
-		"category":"Environment",
+		"category":"Animals",
 		"image": "21.png",
 		"title": "Dogs are the fountain of youth",
 		"type": "url",
@@ -390,6 +390,139 @@
 		"description": "In other news, people with dogs live longer than people who dont. So naturally the conclusion is that everyone should get a dog",
 		"user_name":"Sean",
 		"user_image": "sean.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+	
+		"id": 22,
+		"category": "World",
+		"image": "22.png",
+		"title": "The Feminist Artist Who Created The Selfie Nearly 100 Years Ago",
+		"type": "url",
+		"content": "https://www.forbes.com/sites/gracebanks/2019/07/05/the-feminist-artist-who-created-the-selfie-nearly-100-years-ago/#5907fa996b83",
+		"description": "Maria Lassnig was a selfie artist decades before it was a trend. The painter was prolific in her creation of figurative painting ― particularly figures of herself ― from then on...",
+		"user_name":"Amanda",
+		"user_image":"amanda.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 23,
+		"category": "World",
+		"image": "23.png",
+		"title": "Network of Ancient Mayan Farms Uncovered",
+		"type": "url",
+		"content": "https://www.nbcnews.com/mach/science/laser-scanning-tech-uncovers-huge-network-ancient-maya-farms-ncna1065286",
+		"description": "Apparently they just found out these old Mayan farms from like a bajillion years ago, check this out",
+		"user_name": "John",
+		"user_image":"john.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 24,
+		"category": "Random",
+		"image": "24.png",
+		"title": "Damn man they scamming 2 year olds now lmaoo",
+		"type": "url",
+		"content": "https://www.cbc.ca/radio/asithappens/ontario-woman-spends-hundreds-for-son-to-meet-youtube-star-blippi-who-won-t-be-there-1.5318139",
+		"description": "This lady payed hundreds of bucks to let her kid meet this guy named Blippi and it turns out he never even showed xD",
+		"user_name": "Carlita",
+		"user_image": "carlita.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 25,
+		"category": "Pop Culture",
+		"image": "25.png",
+		"title": "Joaquin Phoenix Owns Up to a Fender Bender",
+		"type": "url",
+		"content": "https://www.foxnews.com/entertainment/joker-star-joaquin-phoenix-does-the-unthinkable-after-accident-with-paramedics-truck-report",
+		"description": "Joaquin Pheonix hit a car in a parking lot, and then he went out of his way to find the other person and help them, what a good guy!",
+		"user_name": "Beth",
+		"user_image":"beth.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 26,
+		"category": "Environment",
+		"image": "26.png",
+		"title": "Climate change threatening two-thirds of species in U.S. with extinction",
+		"type": "url",
+		"content": "https://www.usatoday.com/story/news/nation/2019/10/10/climate-change-threatens-majority-america-birds-extinction-audubon-report/3917735002/",
+		"description": "About two-thirds of America's birds will be threatened with extinction if global warming rises by 5.4 degrees Fahrenheit by 2100, according to a report released Thursday from the National Audubon Society, a bird-focused conservation group",
+		"user_name": "Dan",
+		"user_image":"dan.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 27,
+		"category": "World",
+		"image": "27.png",
+		"title": "Girl, 15, charged with murder in stabbing on Washington DC Metro train",
+		"type": "url",
+		"content": "https://www.foxnews.com/us/stabbed-washington-dc-metro-murder",
+		"description": "This is such a tragedy all around... ;( pray for the children",
+		"user_name": "Taylor",
+		"user_image":"taylor.png",
+
+		"results": {
+			"score": 1,
+			"magnitude": 1,
+			"labels": []
+		}
+	},
+
+	{
+		
+		"id": 28,
+		"category": "World",
+		"image": "28.png",
+		"title": "Scheer, Singh make confident pitch to voters, Trudeau targets both as polls move to favour Conservatives",
+		"type": "url",
+		"content": "https://www.cbc.ca/news/politics/scheer-singh-voters-election-pitch-1.5319507",
+		"description": "Election season is really heating up, its a whole one man race now!",
+		"user_name": "Kevin",
+		"user_image":"kevin.png",
 
 		"results": {
 			"score": 1,
